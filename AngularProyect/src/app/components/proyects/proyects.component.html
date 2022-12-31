@@ -1,0 +1,24 @@
+<!----------------------------------------------------------FIFTH CARD-------------------------------------------------------------------------------->
+<div class="container" id="fifthcard">
+    <div class="row justify-content-between">
+      <div class="col-4">
+        <h3>Proyects</h3>
+      </div>
+      <div class="col-4">
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+      </div>
+    </div>
+    <li *ngFor="let proyects of proyectList">
+      <div class="proy-text">
+        <div class="row justify-content-between">
+          <div class="col-4">
+            <h3 style="color: #008876;">{{proyects.name}}</h3>
+          </div>
+        </div>
+        <p class="text-grey">
+          {{proyects.description}}
+        </p>
+      </div>
+    </li>
+  </div>
+<!----------------------------------------------------------END OF CARDS-------------------------------------------------------------------------------->

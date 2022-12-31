@@ -1,0 +1,46 @@
+<!-------------------------------------------------------------FIRST CARD-------------------------------------------------------->
+<main>
+    <div class="main">
+      <div class="container" id="firstcard">
+        <div class="main-banner">
+          <div class="img-banner">
+            <img class="pfp" [src]="myPortfolio.pfp" alt="pic_perfil">
+            <div class="bgimg"></div>
+          </div> 
+        </div>
+        <div class="second-div">
+          <div class="row align-items-center">
+            <div class="name">
+              <h2><strong>{{myPortfolio.name}}</strong><i class="fa fa-pencil" aria-hidden="true"></i></h2>
+            </div>
+            <div class="ref" >
+              <ul class="img-ref" type="none">
+                <li>
+                  <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" target="_blank">
+                    <img class="headlogo" [src]="myPortfolio.company.imgWork" alt="Arg-Programa" width="100">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.ubp.edu.ar/carreras/informatica/" target="_blank">
+                    <img class="headlogo" [src]="myPortfolio.school.imgUni" alt="UBP" width="120">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="div-desc" id="div-desc">
+            <h4>{{myPortfolio.position}}</h4>
+            <table>
+              <tr>
+                <td>
+                  <h4>{{myPortfolio.ubication}}</h4>
+                </td>
+              </tr>
+            </table>
+            <button type="button" class="btn btn-primary">Interests</button>
+            <button type="button" class="btn btn-light">Add section</button>
+            <button type="button" class="btn btn-light">More</button>
+          </div>
+        </div>
+      </div>
+    </div>

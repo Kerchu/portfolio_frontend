@@ -1,0 +1,93 @@
+.container{
+    width: 100%;
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+    border: 3px solid rgb(99, 99, 99);
+    background-color: #dfdfdf;
+    box-sizing: border-box
+}
+.main{
+    background-color: rgb(12, 12, 12);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+.headlogo{
+    margin-bottom: 5px;
+}
+.headlogo:hover{
+    color: #3f8bfc;
+    transition: all 0.3s ease;
+}
+.btn{
+    margin-right: 7px;
+}
+.fa-pencil{
+    float: right;
+}
+.fa-pencil:hover{
+    color: #3f8bfc;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.main-banner{
+    background: url('assets/img/bgpic.jpg');
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 220px;
+    background-color: #3f8bfc;
+    border-radius: 15px;
+}
+.img-banner{
+    position: absolute;
+}
+.pfp{
+    border-radius: 50%;
+    position: absolute;
+    width: 105px;
+    height: 100px;
+    top: 9rem;
+    left: -0.2198rem;
+}
+.title{
+    margin-bottom: 10px;
+}
+.second-div{
+    padding: 25px;
+}
+.log{
+    position: absolute;
+}
+#div-desc{
+    margin-top: -5rem;
+}
+.img-ref{
+    float: right;
+}
+.img-navbar{
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+}
+.descrip-text{
+    margin-left: 110px;
+}
+.progress{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.proy-text{
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: -25px;
+}
+.text-grey{
+    color: #909090;
+    text-align: justify;
+    padding: 0px 50px 0px 0px;
+}
